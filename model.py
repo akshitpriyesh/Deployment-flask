@@ -24,7 +24,7 @@ y = dataset.iloc[:, -1]
 
 #Splitting Training and Test Set
 #Since we have a very small dataset, we will train our model with all availabe data.
-
+#Importing linear regression algorithm from sklearn library.
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 
